@@ -23,7 +23,7 @@
 </template>
 
 <script>
-  import vPageTitle from '../common/pageTitle.vue';
+  import vPageTitle from '../common/PageTitle.vue';
   import expandTable from '../tables/expandTable.vue';
   import editTable from '../tables/editTable.vue';
   import fixedColumnTable from '../tables/fixedColumnTable.vue';

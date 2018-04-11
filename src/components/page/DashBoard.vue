@@ -63,7 +63,7 @@
 </template>
 
 <script>
-  import vPageTitle from '../common/pageTitle.vue';
+  import vPageTitle from '../common/PageTitle.vue';
   export default {
     data() {
       return {
