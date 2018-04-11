@@ -5,6 +5,7 @@
       <span class="pt-Home"><router-link to="DashBoard">Home</router-link></span>
       <span class="pt-line"> / </span>
       <span class="pt-page">{{vtitle}}</span>
+
     </div>
     <div class="pt-right"><h2>{{vtitle.toUpperCase()}}</h2></div>
   </div>
