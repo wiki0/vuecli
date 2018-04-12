@@ -4,8 +4,7 @@ import Vuex from 'vuex';
 Vue.use(Vuex);
 
 const state = {
-  isCollapse: false,
-  count: 1
+  isCollapse: false
 };
 const mutations = {
   change(state) {

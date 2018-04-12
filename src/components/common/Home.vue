@@ -1,10 +1,13 @@
 <template>
   <div class="home">
     <el-container>
-      <el-aside>
+      <el-aside style="width: auto">
         <v-sidebar></v-sidebar>
       </el-aside>
       <el-container>
+        <el-header>
+          <v-head></v-head>
+        </el-header>
         <el-main>
           <transition name="slide-fade" mode="out-in">
             <router-view></router-view>
@@ -18,10 +21,11 @@
 
 <script>
   import vSidebar from './Sidebar.vue';
+  import vHead from './Header.vue';
 
   export default {
     components: {
-      vSidebar
+      vSidebar,vHead
     }
   }
 </script>

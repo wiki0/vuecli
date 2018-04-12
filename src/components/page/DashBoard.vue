@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-pageTitle vtitle="BasicTables"></v-pageTitle>
+    <v-pageTitle vtitle="DashBoard"></v-pageTitle>
     <el-row>
       <el-col :span="24">
         <div class="grid-content bg-purple-dark"></div>
